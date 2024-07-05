@@ -1,0 +1,267 @@
+body{
+    background:linear-gradient(rgb(114, 213, 177),rgb(6, 80, 98));
+    height: 1900px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(63, 212, 212);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background:linear-gradient(rgb(114, 213, 177),
+        rgb(19, 75, 73));
+}
+nav li {
+    display: flex;
+    padding: 20px;
+   
+}
+nav{
+    display: flex;
+    margin-left: 800px;  
+    position: absolute;
+    bottom: 525px;
+}
+nav li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+nav li a:hover {
+    color: rgba(86, 97, 163, 0.559);
+    scale: 1.2;
+    text-decoration: underline;
+}
+video{
+width:100%;
+object-fit: cover;
+height: 400px;
+}
+#about{
+    margin-top: 20px;
+    box-shadow: 0 0 10px black;
+    
+}
+.photo img{
+    width: 300px;
+    margin-left: 10px;
+    border-radius: 20%;
+    height: 250px ;
+box-shadow: 0 0 30px rgba(65, 132, 105, 0.1)
+    
+}
+#nav h1{
+    margin-left: 7px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    color: rgba(86, 97, 163, 0.559);
+}
+.photo {
+    display: flex;
+
+}
+.photo p {
+    text-align: justify;
+    margin: 10px;
+    
+}
+.photo h1{
+    margin-left: 10px;
+}
+.icon h3 {
+    position: absolute;
+    left: 21%;
+    bottom: 53%;
+    padding: 20px;
+    border: 2px solid #02f37a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2px;
+    height: 2px;
+    color: rgba(86, 97, 163, 0.559);
+}
+.icon h3:hover{
+    scale: 1.3;
+    box-shadow: 2px 4px 6px green;
+    background-color: #21cd77ac;
+}
+/* Specific positions for each icon */
+
+
+.icon2 {
+    margin-left: 60px;
+}
+
+.icon3 {
+    margin-left: 120px;
+}
+
+.icon4 {
+   margin-left: 180px;
+}
+#about a{
+    position: absolute;
+    left: 21%;
+    top: 45%;
+    text-decoration: none;
+    border: 2px solid #02f37a;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+#about a:hover{
+    scale: 1.14;
+    box-shadow: 2px 4px 6px green;
+    background-color: #21cd77ac;
+}
+#projects h1 {
+    text-align: center;
+    color: rgba(23, 23, 24, 0.559);
+    text-decoration: solid;
+    box-shadow: 0 0 10px black;
+    background-color: white;
+    margin-left: -10px;
+     margin-right: -10px;
+    
+}
+
+.row-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.col-1 {
+    width: 35%;
+    text-align: justify;
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(172, 148, 101);
+    color: white;
+
+}
+
+.col-1 h4 {
+    text-align: center;
+
+}
+.col-1:hover {
+    color: wheat;
+    background: linear-gradient(rgb(114, 213, 177), rgb(6, 80, 98));
+    transition: all 0.6s;
+    scale: 1.09;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    /* Adjust gap as needed */
+}
+
+
+.col {
+    width: 25%; 
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 0 0 10px black;
+    background-color: white;
+    border-radius: 8px;
+    /* Optional: Add some border radius for better aesthetics */
+}
+#services h1{
+    text-align: center;
+    color: rgba(23, 23, 24, 0.559);
+    text-decoration: solid;
+    box-shadow:0 0 10px black ;
+    background-color: white;
+    margin-left: -10px;
+     margin-right: -10px;
+}
+.col{
+   
+    text-align: justify;
+}
+.col h4{
+    text-align: center;
+}
+.col:hover{
+    background-color: wheat;
+    scale: 1.09;
+    transition: all 0.4s;
+}
+#Contact h1{
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    background-color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+form{
+    width: 500px;
+     margin-left: 300px;
+}
+.input{
+    margin: 10px;
+     width: 100%;  
+}
+form button{
+    width: 100px;
+    margin-left: 220px;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+form button:hover{
+    color: #042916;
+    background-color: rgb(56, 179, 108);
+    scale: 1.2;
+}
+footer{
+    background-color: aquamarine;
+    margin-left: -10px;
+     margin-right: -10px;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    margin-top: 20px;
+  
+}
+.icon-1{
+    display: flex;
+    gap: 20px;   
+}
+.icon5,
+.icon6,
+.icon7,
+.icon8 {
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    /* Adjust width as needed */
+    height: 50px;
+    /* Adjust height as needed */
+}
+.icon-1 h3:hover{
+    scale: 1.1;
+    background-color: #c2e6d4;
+    box-shadow: 0 0 10px #02f37a;
+}
